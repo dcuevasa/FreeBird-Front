@@ -1,0 +1,136 @@
+#contActivities {
+    background-image: url("https://i.ibb.co/wKxKkND/Rectangle-19290-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    height: 100vh
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    color: white;
+    margin-left: 10%;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 14px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+    font-weight: bolder;
+    width: 80%;
+    padding: 2% 0;
+}
+
+.fs-1 {
+    font-size: 3rem !important;
+}
+
+#test {
+    padding: 2%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#Submit {
+    padding: 10px 30px;
+}
+
+.btn-primary {
+    background-color: var(--naranja); 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 50px !important; 
+    cursor: pointer; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.btn-primary:active, .btn-primary:hover{
+    background-color: #cf5942;
+}
+
+#contActivity {
+    background-size: cover;
+      background-repeat: no-repeat;
+      min-width: 100vw;
+      max-height: 90vh
+  }
+  
+  
+  .titulo{
+    font-family: 'Volkhov', serif;
+    color: var(--azul);
+    font-weight: bold;
+    text-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.073);
+    padding-bottom: 5px;
+  }
+  
+  .backCard {
+    border-radius: 0;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  
+  .accHeader{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .accordion{
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
+  
+  .time{
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    background-color: var(--naranja);
+    padding: 3px 15px;
+    width: 80px;
+    border-radius: 20px;
+  }
+  
+  .accItem{
+    border: none;
+    min-width: 100%;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.073);
+    border: none;
+    border-radius: 30px;
+  }
+  
+  
+  .cardBody{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .accordion-button{
+    font-family: 'Volkhov', serif;
+    color: var(--azul);
+    background-color: none;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 0.85em;
+  }

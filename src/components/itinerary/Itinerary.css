@@ -1,0 +1,72 @@
+#contItinerary {
+  background-image: url("https://i.imgur.com/CkgIkq7.jpeg");
+  background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    max-height: 90vh
+}
+
+
+.titulo{
+  font-family: 'Volkhov', serif;
+  color: var(--azul);
+  font-weight: bold;
+  text-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.073);
+  padding-bottom: 5px;
+}
+
+.backCard {
+  border-radius: 0;
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.accHeader{
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion{
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.time{
+  color: white;
+  font-weight: bold;
+  font-size: 0.9em;
+  background-color: var(--naranja);
+  padding: 3px 15px;
+  width: 80px;
+  border-radius: 20px;
+}
+
+.accItem{
+  border: none;
+  min-width: 100%;
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.073);
+  border: none;
+  border-radius: 30px;
+}
+
+
+.cardBody{
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.accordion-button{
+  font-family: 'Volkhov', serif;
+  color: var(--azul);
+  background-color: none;
+  font-weight: bold;
+}
+
+p {
+  font-size: 0.85em;
+}

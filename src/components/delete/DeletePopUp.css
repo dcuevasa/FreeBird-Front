@@ -1,0 +1,38 @@
+.red-button {
+  background-color: #9c1719;
+  font-size: 0.7em;
+  color: white;
+  border: none;
+  padding-inline: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.modal-text {
+  padding: 0 20px; /* Padding de 20px a los lados (izquierda y derecha) */
+  color: #9c1719; /* Color de texto */
+}
+
+.font-bold {
+  font-weight: bold;  /* Makes text bold */
+}
+
+.font-light {
+  font-weight: 300;   /* Makes text lighter */
+}
+
+.custom-modal-header {
+  padding-top: 15px;  /* Reduce el padding superior */
+  padding-bottom: 0px; /* Opcional: también puedes ajustar el padding inferior si es necesario */
+}
+
+.custom-delete-modal-width {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  max-width: 300px;
+}
+

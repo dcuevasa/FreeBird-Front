@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+
+/* Orange-colored checkboxes */
+.form-check-input:checked {
+    background-color: var(--naranja);
+    border-color: var(--naranja);
+}
+
+.form-check-input {
+    width: 1.25em;
+    height: 1.25em;
+    margin-right: 0rem;
+}
+
+.form-check-label{
+    font-size: 0.8em;
+    color: black;
+}
+
+
+/* Button style */
+.create-profile-btn {
+    background-color: var(--naranja);
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    font-size: 16px;
+    size: 50px;
+}
+
+
+.create-profile-btn:hover {
+    background-color: #ff4f41;
+}
+
+/* Info icon styles */
+.info-icon {
+    float: right;
+    margin-top: -30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 0px;
+    padding-left: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+    width: 4.5%;
+    height: 22px;
+}
+
+.modal-header{
+    border-bottom: none;
+}
+
+.modal-content {
+    border-radius: 30px; /* Adjust the value as needed */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-title {
+    font-family: 'Volkhov', serif;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.activity-preferences {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-gap: 12px; /* Gap between items */
+    font-size: small;
+}
+
+@media (max-width: 768px) {
+    .activity-preferences {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .activity-preferences {
+        grid-template-columns: repeat(2, 1fr); /* 1 column on very small screens */
+    }
+}
+
+.saveActivity_button {
+    background-color: var(--naranja);
+    border: none;
+    font-size: 0.7em;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-left: 20px;
+    padding-inline: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cancel_button {
+    background-color: gray;
+    border: none;
+    font-size: 0.7em;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-left: 20px;
+    padding-inline: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.red-button {
+    background-color: darkred;
+    font-size: 0.7em;
+    color: white;
+    border: none;
+    padding-inline: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+.activity-preferences-label{
+    color: var(--naranja);
+}
+
+#editar-perfil-title{
+    color: #181E4B;
+}
+
+.custom-checkbox .form-check-input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 1.25em;
+    height: 1.25em;
+    border: 1px solid #ced4da;
+    border-radius: 0.25em;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.custom-checkbox .form-check-input:checked {
+    background-color: var(--naranja);
+    border-color: var(--naranja);
+}
+
+.custom-checkbox .form-check-input:checked::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0.75em;
+    height: 0.75em;
+    background-color: var(--naranja);
+    transform: translate(-50%, -50%);
+    border-radius: 0.25em;
+}
+
+#user-edit-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#user-name-div{
+    color: gray;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+    border: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 5px;
+}
+
+#password-div{
+    color: gray;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+    border: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 5px;
+}
+
+#email-div{
+    color: gray;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+    border: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 5px;
+}
+
+#numero-telefono-div{
+    color: gray;
+    width: 90%;
+}
+
+#input-numero-telefono{
+    border-style: none;
+    padding-left: 15px;
+}
+
+#columna-input-numero-telefono{
+    padding-left: 0px;
+}
+
+#columna-input-prefijo-telefono{
+    padding-right: 0px;
+}
+
+.form-select{
+    color: #1E1D4C;
+    border-style: none;
+    padding: 0px;
+    padding-left: 20px;
+}
+
+.form-control{
+    color: #1E1D4C;
+    border-style: none;
+    padding: 0px;
+    padding-left: 3%;
+}
+
+.form-label{
+    font-size: 0.7em;
+    padding: 0px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#numero-telefono-input-div{
+    color: gray;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+    border: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-bottom: 10px;
+}
+
+#time-div {
+    margin-left: 0px;
+    padding: 0;
+    width: 80%;
+    text-align: left; 
+}
+
+.activity-preferences{
+    padding-left: 3%;
+}
+
+#close-button{
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+#input-info{
+    padding-right: 10px;    
+}
