@@ -2,6 +2,8 @@
 
 Free Bird es una aplicación web diseñada para ayudar a los usuarios a planificar y gestionar sus actividades y viajes de manera eficiente. La aplicación permite a los usuarios crear itinerarios, agregar actividades, y gestionar perfiles de usuario.
 
+Este es el front de la aplicaciíon que esta diseñada para funcionar en el puerto 3001 con el Back: https://github.com/dcuevasa/FreeBird-Back, corriendo en el puerto 3000 de la misma maquina
+
 
 ## Instalación
 
